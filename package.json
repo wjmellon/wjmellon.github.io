@@ -2,7 +2,7 @@
   "name": "wjmellon.github.io",
   "version": "1.0.0",
   "description": "portfolio",
-  "main": "Typed.js",
+  "main": "main.js",
   "directories": {
     "example": "examples"
   },
