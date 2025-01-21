@@ -348,7 +348,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #001f54;
+  border-bottom: 5px solid #253a5e;
 }
 
 #intro.section .teal {
@@ -469,11 +469,11 @@ a.hoverline {
 /* main a.hoverline */
 
 /* a.hoverline:hover {
-  border-bottom: 3px solid #001f54 !important;
+  border-bottom: 3px solid #253a5e !important;
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #2d5073 !important;
 }
 
 #skills .card.large {
