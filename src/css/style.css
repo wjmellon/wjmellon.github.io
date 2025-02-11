@@ -41,15 +41,18 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #FFFFFF;
   cursor: pointer;
   font-size: 30px;
-  line-height: 70px;
+  line-height: 50px;
   border-radius: 45px;
   display: inline-block;
   margin: 4px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
 }
 
+/* Default Icon Colors */
 .github {
   color: black;
 }
@@ -58,34 +61,39 @@
   color: #0077b5;
 }
 
-.google-scholar{
+.google-scholar {
   color: #0077b5;
 }
-
 
 .angellist {
   color: grey;
 }
 
+/* General Hover Effect */
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #FFFFFF;
+  color: white !important; /* Ensures text remains visible */
 }
 
+/* Individual Button Hover Styles */
 .linkedin:hover {
   background-color: #0077b5;
+  color: white !important;
 }
 
 .google-scholar:hover {
   background-color: #0077b5;
+  color: white !important;
 }
 
 .angellist:hover {
   background-color: grey;
+  color: white !important;
 }
 
 .github:hover {
   background-color: black;
+  color: white !important;
 }
 
 /* Buttons - Read Me, Contact Us */
